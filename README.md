@@ -14,9 +14,9 @@ Just a simple demo which shows how to create a simple app in Symfony 3 to rent a
 Live Demo
 -----------
 
-URL: [nat.darkville.o12.pl](http://nat.darkville.o12.pl/)
+URL: [sfs.timsmanter.net](http://sfs.timsmanter.net/)
 
-Accounts:
+### Accounts:
 
 Login|Password|Role
 ---|---|---
@@ -27,11 +27,12 @@ Mod|mod|MOD
 
 Installation
 ------------
-1. Install pure [Symfony 3](https://symfony.com/download)
+1. Install Composer
 2. Clone this repository
-3. Configure your database in `app\config\parameters.yml`
-4. Create schema by command `php bin/console doctrine:schema:update --force`
-5. Fill database. Example:
+3. Install dependencies via command `composer install` in project directory
+4. Set all necessary database settings
+5. Create schema by command `php bin/console doctrine:database:create --force`
+6. Fill database. Example:
 
 #### cars
 id|name|category_id|image|description|parameters|price
