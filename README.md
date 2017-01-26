@@ -1,10 +1,11 @@
 Symfony 3 Car-Rent Sample Demo PL
 =================================
 
-Info
-----
+Description
+-----------
 
-Just a simple demo which shows how to create a simple app in Symfony 3 to rent a cars by users and moderate orders.
+Just a simple demo which shows how to create a simple app in Symfony 3
+to rent cars by users and moderate orders.
 
 - Framework: Symfony 3.0.*
 - Language: Polish
@@ -79,4 +80,5 @@ remove opinions     |-|-|+
 Credits
 -------
 
-Sample created by [TimsManter](http://timsmanter.net/) under MIT licence.
+Sample created by Krzysztof [TimsManter](http://timsmanter.net/) Ferenc
+under MIT licence as a study project for Lublin University of Technology.
