@@ -1,30 +1,47 @@
-Symfony 3 Car-Rent Sample Demo PL
-=================================
+# Symfony 3 Car-Rent Sample with Demo
 
-Description
------------
+* @Author: TimsManter
+* @AuthorSite: [TimsManter.NET](http://timsmanter.net/)
+* @CreateDate: 2016-01
+* @AbandonDate: 2016-03
+* @Editor: PhpStorm
+* @Language: PHP
+* @Framework: Symfony
+* @Locale: pl_PL
+* @License: [MIT](LICENSE.md)
+* @Status: Beta | Obsolete | Sample
+* @ProjectSite: [Car Rent Demo](http://sfs.timsmanter.net/)
+
+<!-- TOC -->
+
+- [Overview](#overview)
+- [Live Demo](#live-demo)
+  - [Accounts:](#accounts)
+    - [cars](#cars)
+    - [categories](#categories)
+    - [users](#users)
+- [Roles](#roles)
+- [Credits](#credits)
+
+<!-- /TOC -->
+
+## Overview
 
 Just a simple demo which shows how to create a simple app in Symfony 3
 to rent cars by users and moderate orders.
 
-- Framework: Symfony 3.0.*
-- Language: Polish
-- Project type: Sample
-- Licence: MIT
-
-Live Demo
------------
+## Live Demo
 
 URL: [sfs.timsmanter.net](http://sfs.timsmanter.net/)
 
 ### Accounts:
 
-Login|Password|Role
----|---|---
-Kasia|kasia|USER
-Ania|ania|USER
-Stefan|stefan|USER
-Mod|mod|MOD
+Login | Password | Role
+------|----------|-----
+Kasia |kasia     |USER
+Ania  |ania      |USER
+Stefan|stefan    |USER
+Mod   |mod       |MOD
 
 Installation
 ------------
@@ -58,8 +75,7 @@ id|username|mail|password|roles
 
 **Tip:** You can create users by registration form and then give them right roles.
 
-Roles
---------
+## Roles
 
 Activity|ANON|USER|MOD
 ---|:---:|:---:|:---:
@@ -77,8 +93,7 @@ add opinions        |-|+|+
 accept opinions     |-|-|+
 remove opinions     |-|-|+
 
-Credits
--------
+## Credits
 
 Sample created by Krzysztof [TimsManter](http://timsmanter.net/) Ferenc
 under MIT licence as a study project for Lublin University of Technology.
