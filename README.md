@@ -50,8 +50,8 @@ Mod   |mod       |MOD
 ![](docs/screenshots/main.png)
 |||
 ---|---
-![](docs/screenshots/desc.png)|![](docs/screenshots/dialog.png)
-![](docs/screenshots/user_message.png)|![](docs/screenshots/rent_list.png)
+![](docs/screenshots/desc.png) | ![](docs/screenshots/dialog.png)
+![](docs/screenshots/user_message.png) | ![](docs/screenshots/rent_list.png)
 
 ## Installation
 
