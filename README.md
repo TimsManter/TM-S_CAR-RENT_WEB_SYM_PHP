@@ -16,12 +16,14 @@
 
 - [Overview](#overview)
 - [Live Demo](#live-demo)
-  - [Accounts:](#accounts)
+  - [Accounts](#accounts)
+- [Scrrenshots](#scrrenshots)
+- [Installation](#installation)
+  - [Database](#database)
     - [cars](#cars)
     - [categories](#categories)
     - [users](#users)
 - [Roles](#roles)
-- [Credits](#credits)
 
 <!-- /TOC -->
 
@@ -34,7 +36,7 @@ to rent cars by users and moderate orders.
 
 URL: [sfs.timsmanter.net](http://sfs.timsmanter.net/)
 
-### Accounts:
+### Accounts
 
 Login | Password | Role
 ------|----------|-----
@@ -43,14 +45,24 @@ Ania  |ania      |USER
 Stefan|stefan    |USER
 Mod   |mod       |MOD
 
-Installation
-------------
+## Scrrenshots
+
+![](docs/screenshots/main.png)
+|||
+---|---
+![](docs/screenshots/desc.png)|![](docs/screenshots/dialog.png)
+![](docs/screenshots/user_message.png)|![](docs/screenshots/rent_list.png)
+
+## Installation
+
 1. Install Composer
 2. Clone this repository
 3. Install dependencies via command `composer install` in project directory
 4. Set all necessary database settings
 5. Create schema by command `php bin/console doctrine:database:create --force`
 6. Fill database. Example:
+
+### Database
 
 #### cars
 id|name|category_id|image|description|parameters|price
@@ -92,8 +104,3 @@ order cars          |-|+|+
 add opinions        |-|+|+
 accept opinions     |-|-|+
 remove opinions     |-|-|+
-
-## Credits
-
-Sample created by Krzysztof [TimsManter](http://timsmanter.net/) Ferenc
-under MIT licence as a study project for Lublin University of Technology.
