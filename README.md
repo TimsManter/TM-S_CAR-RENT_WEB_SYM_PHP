@@ -86,7 +86,7 @@ id|username|mail|password|roles
 2|Megan|megan(at)example.com|megan456|ROLE_MOD
 ...|...|...|...|...
 
-**Tip:** You can create users by registration form and then give them right roles.
+> **Tip:** You can create users by registration form and then give them right roles.
 
 ## Roles
 
